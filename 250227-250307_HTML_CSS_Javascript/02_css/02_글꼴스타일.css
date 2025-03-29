@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Brush+Script&family=Nanum+Myeongjo&family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@100..900&family=Single+Day&display=swap");
+
+.p1 {
+  /* font-family: "Noto Sans KR", sans-serif;
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: bold; */
+  font: italic bold 1.5em "Noto Sans KR";
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 5px 5px 5px lightgray;
+  letter-spacing: 0.3em;
+  word-spacing: 2em;
+  line-height: 10;
+}
+.p2 {
+  font-family: "Black Han Sans", sans-serif;
+  font-size: 0.8em;
+}
+.p3 {
+  font-family: "Nanum Brush Script", cursive;
+  font-size: 2rem;
+}
+.p4 {
+  font-family: "Pretendard";
+  font-size: 2rem;
+}

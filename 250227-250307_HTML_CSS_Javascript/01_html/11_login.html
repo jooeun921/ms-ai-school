@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>로그인</title>
+  </head>
+  <body>
+    <form action="test.jsp" method="post">
+      <fieldset>
+        <legend>로그인</legend>
+
+        <!-- 입력 div -->
+        <!-- name: 서버 쪽에서 사용 이름 -->
+        <!-- id: 브라우저에서 웹 요소를 구분하기 위한 속성 -->
+        <div>
+          <div>
+            <label for="userid">아이디</label
+            ><input
+              type="text"
+              name="id"
+              id="userid"
+              maxlength="10"
+              size="20"
+              placeholder="아이디를 입력하세요"
+              required
+            />
+          </div>
+          <div>
+            <label for="userpwd">비밀번호</label
+            ><input
+              type="password"
+              name="pwd"
+              id="userpwd"
+              placeholder="비밀번호를 입력하세요"
+            />
+          </div>
+        </div>
+
+        <div>
+          <label for="userid">비활성화테스트</label
+          ><input
+            type="text"
+            maxlength="10"
+            size="20"
+            placeholder="비활성화됩니다."
+            disabled
+          />
+        </div>
+
+        <!-- 버튼 div -->
+        <div>
+          <input type="submit" value="Login" />
+          <input type="reset" value="Reset" />
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>

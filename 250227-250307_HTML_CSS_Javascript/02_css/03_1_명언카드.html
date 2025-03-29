@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>명언카드</title>
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Pretendard", sans-serif;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+      }
+      .box1 {
+        display: inline-block;
+        padding: 30px;
+        text-align: center;
+        background: white;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* 그림자 효과 */
+        border-radius: 10px; /* 모서리 둥글게 */
+      }
+      img {
+        width: 100%;
+        max-width: 1000px;
+        cursor: pointer;
+      }
+      .quote {
+        font-size: 18px; /* 명언 글자 크기 증가 */
+        font-weight: bold;
+        margin: 20px 0;
+      }
+      .author {
+        font-size: 14px; /* 이름 크기 조절 */
+        font-weight: bold;
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box1">
+      <img id="toggleImage" src="files/play.jpg" />
+      <p class="quote">꿈은 없고요<br />그냥 놀고 싶습니다</p>
+      <p class="author">🌟거성 박명수🌟</p>
+    </div>
+  </body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>명언카드</title>
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Pretendard", sans-serif;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: linear-gradient(
+          135deg,
+          #f9e7e7,
+          #dfe9f3
+        ); /* 부드러운 그라데이션 */
+      }
+      .box1 {
+        display: inline-block;
+        /* border: 10px double black; */
+        padding: 20px;
+        text-align: center;
+        background: white;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* 그림자 효과 */
+        border-radius: 10px; /* 모서리 둥글게 */
+      }
+      img {
+        width: 100%;
+        max-width: 1000px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box1">
+      <img id="toggleImage" src="files\play.jpg" onclick="switchImage()" />
+      <br /><br />꿈은 없고요<br />
+      그냥 놀고 싶습니다 <br /><br />🌟거성 박명수🌟<br />
+    </div>
+
+    <script>
+      function switchImage() {
+        let img = document.getElementById("toggleImage");
+        if (img.src.includes("park1-1.png")) {
+          img.src = "files/park1-2.png"; // 다른 이미지로 변경
+        } else {
+          img.src = "files/park1-1.png"; // 원래 이미지로 변경
+        }
+      }
+    </script>
+  </body>
+</html> -->

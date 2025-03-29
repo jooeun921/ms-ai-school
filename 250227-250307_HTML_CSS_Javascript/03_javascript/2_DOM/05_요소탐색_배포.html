@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul id="web">
+      <li class="html">html</li>
+      <li class="css">css</li>
+      <li class="js">javascript</li>
+    </ul>
+    <!-- <script>
+      elem = document.getElementById("web");
+      console.log(elem.children);
+      console.log(elem.firstElementChild);
+      console.log(elem.lastElementChild);
+    </script> -->
+    <script>
+      elem = document.querySelector(".css");
+      console.log(elem.parentNode);
+      console.log(elem.previousElementSibling);
+      console.log(elem.nextElementSibling);
+    </script>
+  </body>
+</html>

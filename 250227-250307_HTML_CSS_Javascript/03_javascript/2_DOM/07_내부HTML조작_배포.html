@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul id="web">
+      <li class="html">html</li>
+      <li class="css">css</li>
+      <li class="js">javascript</li>
+    </ul>
+    <script>
+      const elem = document.getElementById("web");
+      // HTML 마크업 포함하여 텍스트만 반환
+      console.log(elem.innerHTML);
+      // HTML 마크업 포함하여 변경
+      elem.lastElementChild.innerHTML = "<b>javascript</b>";
+      console.log(elem.innerHTML);
+      console.log(elem.textContent);
+    </script>
+  </body>
+</html>

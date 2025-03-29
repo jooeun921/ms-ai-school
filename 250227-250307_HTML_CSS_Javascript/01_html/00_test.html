@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>문서제목</title>
+    <link rel="stylesheet" href="00_test.css" />
+    <style>
+      h1 {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="color: purple">웹 개발 기초</h1>
+    <p onclick="alert('html')">html</p>
+    <p>css</p>
+    <p>javascript</p>
+    <button>시작하기</button>
+    <script src="00_test.js"></script>
+    <script>
+      let element_h1 = document.querySelector("h1");
+      element_h1.onclick = function () {
+        element_h1.style.backgroundColor = "aqua";
+      };
+      element_h1 = document.querySelector("h1");
+      element_h1.onclick = function () {
+        element_h1.style.backgroundColor = "red";
+      };
+    </script>
+  </body>
+</html>

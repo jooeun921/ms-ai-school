@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>가위바위보 게임</title>
+    <link rel="stylesheet" href="rock_paper_scissors.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- title -->
+      <div class="title">가위바위보 게임</div>
+      <!-- 선택 -->
+      <div class="choice">
+        <button id="scissors"></button>
+        <button id="rock"></button>
+        <button id="paper"></button>
+      </div>
+      <!-- 결과 -->
+      <div class="result-container">
+        <div class="result-img">
+          <div class="you">
+            <div>you</div>
+            <div>
+              <img
+                src="images/blank.png"
+                alt="blank"
+                width="70"
+                height="70"
+                id="user-choice-img"
+              />
+            </div>
+          </div>
+          <div class="score">
+            <div>0</div>
+            <div>:</div>
+            <div>0</div>
+          </div>
+          <div class="computer">
+            <div>computer</div>
+            <div>
+              <img
+                src="images/blank.png"
+                alt="blank"
+                width="70"
+                height="70"
+                id="computer-choice-img"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="result-message"></div>
+      </div>
+    </div>
+    <script src="rock_paper_scissors.js"></script>
+  </body>
+</html>

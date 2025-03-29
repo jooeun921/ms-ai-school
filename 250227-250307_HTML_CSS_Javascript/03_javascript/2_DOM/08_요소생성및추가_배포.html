@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <ul id="web">
+      <li class="html">html</li>
+      <li class="css">css</li>
+      <li class="js">javascript</li>
+    </ul>
+    <script>
+      // // 새로운 li요소 생성
+      // const $li = document.createElement("li");
+      // // 텍스트 노드 생성
+      // const $text = document.createTextNode("python");
+      // console.log($li)
+      // console.log($text)
+      // // ul에 li 추가
+      // const $ul = document.querySelector("ul")
+      // $ul.appendChild($li);
+      // // li에 text노드 추가
+      // $ul.appendChild($text);
+
+      function createLi(text) {
+        // 새로운 li요소 생성
+        const $li = document.createElement("li");
+
+        // 속성 추가
+        $li.setAttribute("class", text);
+
+        // 텍스트 노드 생성
+        const $text = document.createTextNode(text);
+
+        // ul에 li 추가
+        const $ul = document.querySelector("ul");
+        $ul.appendChild($li);
+
+        // li에 text노드 추가
+        $li.appendChild($text);
+      }
+      createLi("python");
+      createLi("java");
+      createLi("c언어");
+
+      // 노드 삭제
+      document.querySelector(".html").remove();
+      document.querySelector(".css").remove();
+      document.querySelector(".js").remove();
+      document.querySelector(".python").remove();
+    </script>
+  </body>
+</html>

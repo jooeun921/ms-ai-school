@@ -1,0 +1,42 @@
+{
+  "name": "bread-indexer",
+  "description": null,
+  "dataSourceName": "bread-dataset",
+  "skillsetName": null,
+  "targetIndexName": "bread-index",
+  "disabled": null,
+  "schedule": null,
+  "parameters": {
+    "batchSize": null,
+    "maxFailedItems": null,
+    "maxFailedItemsPerBatch": null,
+    "base64EncodeKeys": null,
+    "configuration": {
+      "indexedFileNameExtensions": ".csv",
+      "parsingMode": "delimitedText",
+      "firstLineContainsHeaders": true,
+      "dataToExtract": "contentAndMetadata",
+      "allowSkillsetToReadFileData": false
+    }
+  },
+  "fieldMappings": [
+    {
+      "sourceFieldName": "업소명",
+      "targetFieldName": "name",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "소재지",
+      "targetFieldName": "address",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "전화번호",
+      "targetFieldName": "phone",
+      "mappingFunction": null
+    }
+  ],
+  "outputFieldMappings": [],
+  "cache": null,
+  "encryptionKey": null
+}

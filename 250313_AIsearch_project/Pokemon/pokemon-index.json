@@ -1,0 +1,54 @@
+{
+  "name": "pokemon-index",
+  "fields": [
+    {
+      "name": "id",
+      "type": "Edm.String",
+      "key": true
+    },
+    {
+      "name": "id_num",
+      "type": "Edm.String",
+      "key": false
+    },
+    {
+      "name": "name",
+      "type": "Edm.String",
+      "analyzer": "ko.microsoft",
+      "key": false
+    },
+    {
+      "name": "description",
+      "type": "Edm.String",
+      "analyzer": "ko.microsoft",
+      "key": false
+    },
+    {
+      "name": "type",
+      "type": "Collection(Edm.String)",
+      "key": false
+    },
+    {
+      "name": "height",
+      "type": "Edm.Double",
+      "key": false
+    },
+    {
+      "name": "category",
+      "type": "Edm.String",
+      "analyzer": "ko.microsoft",
+      "key": false
+    },
+    {
+      "name": "weight",
+      "type": "Edm.Double",
+      "key": false
+    },
+    {
+      "name": "abilities",
+      "type": "Collection(Edm.String)",
+      "analyzer": "ko.microsoft",
+      "key": false
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // img요소 생성하여 body에 추가
+      const img = document.createElement("img");
+      document.body.appendChild(img);
+      // src변경
+      const src =
+        "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png";
+      img.setAttribute("src", src);
+      // style.width변경
+      img.style.width = "100px";
+
+      // img요소 생성
+      function createImg(src, width) {
+        // img요소 생성하여 body에 추가
+        const img = document.createElement("img");
+        document.body.appendChild(img);
+        // src변경
+        img.setAttribute("src", src);
+        // style.width변경
+        img.style.width = width;
+      }
+
+      const src1 =
+        "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png";
+      const src2 =
+        "https://images.pexels.com/photos/27559507/pexels-photo-27559507.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load";
+      createImg(src1, "100px");
+      createImg(src2, "100px");
+    </script>
+  </body>
+</html>

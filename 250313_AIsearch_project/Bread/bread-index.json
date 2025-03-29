@@ -1,0 +1,27 @@
+{
+  "name": "bread-index",
+  "fields": [
+    {
+      "name": "id",
+      "type": "Edm.String",
+      "key": true
+    },
+    {
+      "name": "name",
+      "type": "Edm.String",
+      "analyzer": "ko.microsoft",
+      "key": false
+    },
+    {
+      "name": "address",
+      "type": "Edm.String",
+      "analyzer": "ko.microsoft",
+      "key": false
+    },
+    {
+      "name": "phone",
+      "type": "Edm.String",
+      "key": false
+    }
+  ]
+}

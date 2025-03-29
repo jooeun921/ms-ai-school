@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>이미지</title>
+  </head>
+  <body>
+    <!-- 원본크기 -->
+    <img src="files\cat.jpg" alt="cat" title="원본크기" /><br />
+    <img src="" alt="cat" title="원본크기" /><br />
+
+    <!-- 가로픽셀만 지정하면 비율을 맞추어 세로 크기 자동 지정 -->
+    <img src="files\cat.jpg" width="200px" title="가로 200px" /><br />
+    <!-- 세로픽셀만 지정하면 비율을 맞추어 가로 크기 자동 지정 -->
+    <img src="files\cat.jpg" height="200px" title="세로 200px" /><br />
+    <!-- 가로, 세로 픽셀 모두 지정하면 비율에 상관없이 지정한 픽셀 크기로 사용 -->
+    <img
+      src="files\cat.jpg"
+      width="200px"
+      height="200px"
+      title="가로 200px, 세로 200px"
+    /><br />
+
+    <!-- 부모 요소에서 차지하는 비율 -->
+    <img src="files\cat.jpg" width="50%" title="가로 50%" /><br />
+  </body>
+</html>

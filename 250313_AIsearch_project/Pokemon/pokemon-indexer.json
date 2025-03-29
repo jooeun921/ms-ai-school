@@ -1,0 +1,67 @@
+{
+  "name": "pokemon-indexer",
+  "description": null,
+  "dataSourceName": "pokemon-dataset",
+  "skillsetName": null,
+  "targetIndexName": "pokemon-index",
+  "disabled": null,
+  "schedule": null,
+  "parameters": {
+    "batchSize": null,
+    "maxFailedItems": null,
+    "maxFailedItemsPerBatch": null,
+    "base64EncodeKeys": null,
+    "configuration": {
+      "indexedFileNameExtensions": ".csv",
+      "parsingMode": "delimitedText",
+      "firstLineContainsHeaders": true,
+      "dataToExtract": "contentAndMetadata",
+      "allowSkillsetToReadFileData": false
+    }
+  },
+  "fieldMappings": [
+    {
+      "sourceFieldName": "도감번호",
+      "targetFieldName": "id_num",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "이름",
+      "targetFieldName": "name",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "설명",
+      "targetFieldName": "description",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "타입",
+      "targetFieldName": "type",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "키",
+      "targetFieldName": "height",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "분류",
+      "targetFieldName": "category",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "몸무게",
+      "targetFieldName": "weight",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "특성",
+      "targetFieldName": "abilities",
+      "mappingFunction": null
+    }
+  ],
+  "outputFieldMappings": [],
+  "cache": null,
+  "encryptionKey": null
+}

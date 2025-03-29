@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>로컬스토리지</title>
+  </head>
+  <body>
+    <script>
+      // 로컬스토리지에 데이터 저장
+      let userName = "John";
+      let userAge = 20;
+      let userHobby = ["game", "coding"];
+
+      localStorage.setItem("name", userName);
+      localStorage.setItem("age", userAge);
+      localStorage.setItem("hobby", JSON.stringify(userHobby));
+
+      userName = localStorage.getItem("name");
+      userAge = parseInt(localStorage.getItem("age"));
+      userHobby = localStorage.getItem("hobby"); // JSON(string)
+      userHobby = JSON.parse(userHobby);
+
+      console.log(userName, typeof userName);
+      console.log(userAge, typeof userAge);
+      console.log(userHobby, typeof userHobby);
+
+      // 로컬스토리지에서 데이터 삭제
+      localStorage.removeItem("age");
+      localStorage.clear();
+    </script>
+  </body>
+</html>

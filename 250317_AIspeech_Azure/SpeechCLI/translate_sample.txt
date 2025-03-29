@@ -1,0 +1,4 @@
+﻿audio.input.id	recognizer.session.started.sessionid	recognizer.recognized.result.text	recognizer.recognized.result.translated.text
+	df108a46db44471190338d001593d533	라이그러지가. 안녕하세요. 더욱 대응할 수 있을 것이다.	
+	3d0316bc38c64a3f939baa4f2f0f4786	안녕하세요.	
+	54464154bf9d45dabd99324e63771d98	안녕하세요, 안녕하세요. 됐다 오 근데 여러 개가 그럼 안 되는 건가?	Bonjour, bonjour. D’accord, oh, mais pourquoi pas plusieurs ?

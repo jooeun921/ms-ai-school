@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 인라인 방식은 HTML의 요소(태그) 안에서 on이벤트="함수()" 처럼 함수의 호출문을 할당하는 식으로 사용. -->
+    <!-- <h3 style="color: blue">인라인 이벤트핸들러 방식</h3>
+    <p>on이벤트 = "함수호출문"</p>
+    <button class="btn1" onclick="fn1()">button1</button>
+    <button class="btn2" onclick="fn2()">button2</button>
+    <button class="btn3" onclick="fn3()">button3</button>
+    <div>클릭한 버튼 : <span class="btn-number"></span></div>
+    <script>
+      function fn1() {
+        document.querySelector(".btn-number").textContent = 1;
+      }
+
+      function fn2() {
+        document.querySelector(".btn-number").textContent = 2;
+      }
+
+      function fn3() {
+        document.querySelector(".btn-number").textContent = 3;
+      }
+    </script> -->
+    <h3 style="color: blue">한줄 인라인 이벤트핸들러 방식</h3>
+    <p>on이벤트 = "함수호출문"</p>
+    <button class="btn1" onclick="fn(1)">button1</button>
+    <button class="btn2" onclick="fn(2)">button2</button>
+    <button class="btn3" onclick="fn(3)">button3</button>
+    <div>클릭한 버튼 : <span class="btn-number"></span></div>
+    <script>
+      function fn(buttonNumber) {
+        document.querySelector(".btn-number").textContent = buttonNumber;
+      }
+    </script>
+  </body>
+</html>

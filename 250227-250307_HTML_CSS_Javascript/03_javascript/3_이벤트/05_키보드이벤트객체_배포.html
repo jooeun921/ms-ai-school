@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>이벤트객체</title>
+  </head>
+  <body>
+    <p>키보드를 누르면 어떤 키를 눌렀는지 표시</p>
+    <div><input type="text" /></div>
+    <div class="key"><!--키 표시--></div>
+
+    <script>
+      // 좌표를 표시할 요소 선택
+      const $key = document.querySelector(".key");
+      // 이벤트 핸들러 정의
+      function showKey(e) {
+        $key.textContent = e.key;
+      }
+      //이벤트 핸들러 등록
+      document.querySelector("input").onkeyup = showKey;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+
+#main-container {
+  background-color: #3d2bd9;
+  padding: 10px;
+  display: inline-block;
+}
+.container {
+  background-color: #2b88d9;
+  padding: 10px;
+  display: inline-block;
+}
+
+.p1 {
+  font: 3em "Pretendard Black";
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-shadow: 5px 5px 5px rgb(163, 165, 167);
+  letter-spacing: 0.5em;
+}
+.p2 {
+  font-family: "Pretendard SemiBold";
+  font-size: 1.2em;
+  text-align: right;
+  color: white;
+}
+.p4 {
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 1.8rem;
+  text-align: center;
+  color: white;
+}
+.p3 {
+  font-family: "Pretendard";
+  font-size: 1.2rem;
+  text-align: justify;
+  color: white;
+}
+.p5 {
+  font-family: "Pretendard";
+  font-size: 0.9em;
+  text-align: center;
+  color: white;
+}
