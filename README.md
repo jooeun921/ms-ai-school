@@ -17,7 +17,8 @@
    - [🔠 AI Language (언어-분석)](#-ai-language-언어-분석)
    - [📷 AI Custom Vision (이미지, 영상 분석)](#-ai-custom-vision-이미지-영상-분석)
 9. [🎥 CV(Custom Vision) & Yolo](#-cvcustom-vision--yolo-20250327)
-10. [✨ 추가 예정](#-추가-예정)
+10. [🧪 플라스크(Flask)](#-플라스크-20250421---)
+11. [✨ 추가 예정](#-추가-예정)
 
 ---
 
@@ -195,8 +196,6 @@
 
 ## 🎥 CV(Custom Vision) & Yolo (2025.03.27)
 
-C:\Users\jooeu\Desktop\git\ms-ai-school\250327-250328_yolo3
-
 - **[Object Detection YOLO](./250327-250328_yolo)**
   - `CV2(Custom Vision)`과 `YOLOv3`를 활용하여 Object Detection 진행하고, bounding box 그리기
   - `YOLOv3`에 `OpenAI(Chatgpt)`, `AI Speech`를 결합하여 감지한 텍스트에 관한 분석 읽어주는 기능 웹에서 구현
@@ -205,6 +204,17 @@ C:\Users\jooeu\Desktop\git\ms-ai-school\250327-250328_yolo3
 | YOLOv3                                                                    | YOLOv3 + openAI + Speech                                                                     | YOLOv8 테스트                                         |
 | ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
 | ![Object Detection(YOLOv3)](./resource/250327_yolo3_object_detection.png) | ![Object Detection (YOLOv3 + openAI + AI Speech)](./resource/250327-250328_yolo3_speech.png) | ![YOLOv8 테스트](./resource/250327-250328_yolov8.png) |
+
+---
+
+<a id="python-데이터-분석-20241227---20241231"></a>
+[🔝 목차로 돌아가기](#목차)
+
+## 🧪 플라스크 (2025.04.21 - )
+
+**[플라스크 실습](./250421_flask)**
+
+- Flask를 활용한 웹 애플리케이션 개발 실습 내용입니다. Flask는 Python 기반의 경량 웹 프레임워크로, 간단한 웹 애플리케이션부터 복잡한 웹 서비스까지 유연하게 개발할 수 있습니다.
 
 ---
 

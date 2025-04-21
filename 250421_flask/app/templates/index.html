@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{title}}</title>
+  </head>
+  <body>
+    <h1>안녕하세요, {{username}}님!</h1>
+    {% if username == '박지민' %}
+    <p>관리자 페이지에 오신 것을 환영합니다.</p>
+    {% else %}
+    <p>일반 사용자 페이지입니다.</p>
+    {% endif %}
+  </body>
+</html>
